@@ -64,3 +64,29 @@ section {
     /* 8 */
     flex-wrap: wrap;
   }
+  
+  /* BONUS */
+  /* 1 */
+  #one {
+    flex-direction: column-reverse;
+  }
+  
+  /* 2 */
+  #orange {
+    order: 2;
+  }
+  #purple {
+    order: 3;
+  }
+  #brown {
+    order: 1;
+  }
+  
+  /* 3 */
+  #brown {
+    align-self: flex-start;
+  }
+  #purple {
+    align-self: flex-end;
+  }
+  
